@@ -64,3 +64,20 @@ let colorArray2 = ['red', 'yellow', 'green', 'blue'];
 colorArray2.push('orange');
 
 console.log(colorArray2);
+
+// console.log the third element in this array [‘red’, ‘yellow’, ‘green’, ‘blue’]
+
+let colorArray3 = ['red', 'yellow', 'green', 'blue'];
+
+console.log(colorArray3[2]);
+
+// Find the minimum value in this array [23123, 2, -328, 0]
+
+let numArray = [23123, 2, -328, 0];
+
+let minValue = Math.min.apply(null, numArray);
+
+let minValueTest = Math.min(...numArray);
+
+console.log(minValue);
+console.log(minValueTest);
